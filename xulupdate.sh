@@ -70,7 +70,7 @@ create_pkg_md5() {
     names=('"Linux_64bit"' '"Darwin_64bit"' '"Darwin_32bit"' '("Windows_32bit", "Windows_64bit")' '"Linux_32bit"')
     files=("xulrunner-$version.en-US.linux-x86_64.tar.bz2" "xulrunner-$version.en-US.mac-x86_64.sdk.tar.bz2" "xulrunner-$version.en-US.mac-i386.sdk.tar.bz2" "xulrunner-$version.en-US.win32.zip" "xulrunner-$version.en-US.linux-i686.tar.bz2")
     urlPrefixes=("runtimes" "sdk" "sdk" "runtimes" "runtimes")
-    exes=("xulrunner/xulrunner" "xulrunner-sdk/bin/xulrunner-bin" "xulrunner-sdk/bin/xulrunner-bin" "xulrunner/xulrunner.exe" "xulrunner/xulrunner")
+    exes=("xulrunner/xulrunner" "xulrunner-sdk/bin/xulrunner" "xulrunner-sdk/bin/xulrunner" "xulrunner/xulrunner.exe" "xulrunner/xulrunner")
     
     #output config file
     echo "software = {"
